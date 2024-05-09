@@ -4,6 +4,12 @@ npm-debug.log
 yarn-error.log
 
 node_modules
+/vendor/
+node_modules/
+npm-debug.log
+yarn-error.log
+
+node_modules
 .tmp
 .sass-cache
 **/bower_components or sometimes it is lib/**
