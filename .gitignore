@@ -1,72 +1,89 @@
-/vendor/
+# Dependency directories
 node_modules/
-npm-debug.log
-yarn-error.log
+vendor/
 
-node_modules
-/vendor/
-node_modules/
-npm-debug.log
-yarn-error.log
-
-node_modules
-.tmp
-.sass-cache
-**/bower_components or sometimes it is lib/**
-platforms
-plugins
-*.swp
-*.swo
-*.log
-*.DS_Store
-
-# Laravel 4 specific
-bootstrap/compiled.php
-app/storage/
-
-# Laravel 5 & Lumen specific
-public/storage
-public/hot
-
-# Laravel 5 & Lumen specific with changed public path
-public_html/storage
-public_html/hot
-
-storage/*.key
-.env
-Homestead.yaml
-Homestead.json
-/.vagrant
-.phpunit.result.cache
-
-*~
-*.sw[mnpcod]
-*.log
-*.tmp
-*.tmp.*
-log.txt
-*.sublime-project
-*.sublime-workspace
-.vscode/
-npm-debug.log*
-
-.idea/
-.sass-cache/
-.tmp/
-.versions/
-coverage/
-dist/
-node_modules/
-tmp/
-temp/
-hooks/
+# Ionic specific
 platforms/
 plugins/
-plugins/android.json
-plugins/ios.json
 www/
 $RECYCLE.BIN/
 
+# Compiled source #
+*.com
+*.class
+*.dll
+*.exe
+*.o
+*.so
+
+# Packages #
+*.7z
+*.dmg
+*.gz
+*.iso
+*.jar
+*.rar
+*.tar
+*.zip
+
+# Logs and databases #
+*.log
+*.sql
+*.sqlite
+
+# OS generated files #
 .DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
 Thumbs.db
+
+# Editor directories and files #
+.idea/
+.vscode/
+*.sublime-project
+*.sublime-workspace
+*.sw[mnpcod]
+
+# Laravel specific
+bootstrap/compiled.php
+app/storage/
+public/storage
+public/hot
+storage/*.key
+
+# Laravel with changed public path
+public_html/storage
+public_html/hot
+
+# Environment files
+.env
+Homestead.yaml
+Homestead.json
+
+# Vagrant files
+.vagrant/
+.phpunit.result.cache
+
+# Various temp files
+*.tmp
+*.swp
+*.swo
+tmp/
+temp/
+.tmp/
+.sass-cache/
+.versions/
+coverage/
+dist/
+hooks/
+
+# Ignore log files
+log.txt
+npm-debug.log*
+
+# Ignore metadata and system files
 UserInterfaceState.xcuserstate
+Thumbs.db
